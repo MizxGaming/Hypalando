@@ -2,6 +2,8 @@
 This is the repository consisting of all(probably) dotfiles that I am using in the now-called `Hypalando` setup.
 
 ## Some Screenshots:
+![image](https://github.com/user-attachments/assets/999c32ae-5c65-4c4e-8b15-919ab517f551)
+
 | ![image](https://github.com/user-attachments/assets/1ee8089e-06e6-4de2-89fd-ac5e6cdb3c53) | ![image](https://github.com/user-attachments/assets/857a3437-a741-407d-b465-ab9c476cba1d) |
 |---|---|
 | ![image](https://github.com/user-attachments/assets/c6f5675d-22d8-4523-85a6-efa5ffb55554) | ![image](https://github.com/user-attachments/assets/589c5bd4-2056-46a8-a4c6-fd512342532d) |
