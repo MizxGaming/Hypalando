@@ -1,0 +1,102 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/logo.txt",
+    "height": 10,
+    "width": 30,
+  },
+  "display": {
+    "separator": "   ",
+    "color": "white",
+  },
+  "modules": [
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "Star", // Star symbol at the start
+    },
+    {
+      "type": "title",
+      "key": "   USER AT",
+      "keyColor": "green",
+      "color": {
+        "user": "green",
+        "at": "white",
+        "host": "blue",
+      },
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m╭──────────────────────SYSTEM──────────────────────╮",
+      //'\u001b[90m' is for color
+    },
+    {
+      "type": "os",
+      "key": "╭─  OS",
+      "keyColor": "\u001b[38;5;46m",
+    },
+    {
+      "type": "de",
+      "key": "├─  DE",
+      "keyColor": "\u001b[38;5;226m", // Yellow
+    },
+    {
+      "type": "kernel",
+      "key": "├─  Kernel",
+      "keyColor": "\u001b[38;5;208m", // Orange
+    },
+    {
+      "type": "uptime",
+      "key": "├─ ⏲ Uptime",
+      "keyColor": "\u001b[38;5;217m",
+    },
+    {
+      "type": "command",
+      "key": "├─ 󱦟 Age ",
+      "keyColor": "31",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days",
+    },
+    {
+      "type": "packages",
+      "key": "├─  Packages",
+      "keyColor": "\u001b[38;5;72m",
+    },
+    {
+      "type": "terminal",
+      "key": "╰─  Terminal",
+      "keyColor": "\u001b[38;5;180m", // Yellow
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m╭──────────────────────SPECS───────────────────────╮",
+      //'\u001b[90m' is for color
+    },
+    {
+      "type": "cpu",
+      "format": "{1}",
+      "key": "╭─  CPU",
+      "keyColor": "blue", // Blue
+    },
+    {
+      "type": "gpu",
+      "format": "{2}",
+      "key": "├─  GPU",
+      "keyColor": "\u001b[38;5;208m", // Blue
+    },
+    {
+      "type": "disk",
+      "key": "├─ 𓇳 Disk",
+      "keyColor": "\u001b[38;5;11m", // Magenta
+    },
+    {
+      "type": "memory",
+      "key": "╰─  Memory",
+      "keyColor": "\u001b[38;5;201m", // Magenta
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "Star", // Star symbol at the end
+    },
+  ],
+}
