@@ -1,17 +1,17 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "71c4fc2"
-hash = "a61bb2d21a08bf1d18f0a549e5eb1475"
+rev = "5186af7"
+hash = "ae9e1d0c6bfd68cdebc98cc684c22b45"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-enter"
-rev = "71c4fc2"
-hash = "c1a2739e9ef2d837030ccb4267be3ed1"
+rev = "5186af7"
+hash = "aef2b1a805b80cce573bb766f1459d88"
 
 [[plugin.deps]]
 use = "pirafrank/what-size"
-rev = "6791caa"
-hash = "a75c369673d274371c665c431ab02dc0"
+rev = "b23e3a4"
+hash = "98e5f5af3efd3ba8bc2db0720187cc83"
 
 [[plugin.deps]]
 use = "KKV9/compress"
@@ -20,8 +20,8 @@ hash = "ee025be766240cc98e671754ac836da3"
 
 [[plugin.deps]]
 use = "dawsers/fuse-archive"
-rev = "62d30df"
-hash = "17aa58cd6c4a41ce11a1f9f910552fd6"
+rev = "a58327c"
+hash = "6a6d24880ce7666048fb81ad758c48d3"
 
 [flavor]
 deps = []
